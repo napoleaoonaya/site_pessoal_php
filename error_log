@@ -1,0 +1,252 @@
+[07-Aug-2018 16:43:01 UTC] PHP Warning:  fopen(img/logo_site.png): failed to open stream: No such file or directory in /home/u951541693/public_html/fpdf/fpdf.php on line 1259
+[07-Aug-2018 16:43:01 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: img/logo_site.png in /home/u951541693/public_html/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/u951541693/public_html/fpdf/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /home/u951541693/public_html/fpdf/fpdf.php(885): FPDF->_parsepng('img/logo_site.p...')
+#2 /home/u951541693/public_html/relatorioPDF.php(30): FPDF->Image('img/logo_site.p...', 10, 6, 30)
+#3 {main}
+  thrown in /home/u951541693/public_html/fpdf/fpdf.php on line 271
+[08-Aug-2018 12:45:54 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 12:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 12:45:57 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 12:45:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 12:58:12 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 12:58:54 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 13:02:56 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 13:03:48 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 13:05:09 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 13:06:03 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 13:11:28 UTC] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u951541693/public_html/PHPMailer/class.phpmailer.php on line 1853
+[08-Aug-2018 15:58:45 UTC] PHP Warning:  require(./PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/u951541693/public_html/enviaEmail.php on line 3
+[08-Aug-2018 15:58:45 UTC] PHP Warning:  require(./PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/u951541693/public_html/enviaEmail.php on line 3
+[08-Aug-2018 15:58:45 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/u951541693/public_html/enviaEmail.php on line 3
+[08-Aug-2018 16:01:12 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/config/config.php on line 3
+[08-Aug-2018 16:01:12 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/config/config.php on line 4
+[08-Aug-2018 16:01:12 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/enviaEmail.php on line 17
+[08-Aug-2018 16:01:12 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/enviaEmail.php on line 18
+[08-Aug-2018 16:03:24 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/config/config.php on line 3
+[08-Aug-2018 16:03:24 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/config/config.php on line 4
+[08-Aug-2018 16:03:24 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/enviaEmail.php on line 17
+[08-Aug-2018 16:03:24 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/enviaEmail.php on line 18
+[08-Aug-2018 16:07:17 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/config/config.php on line 3
+[08-Aug-2018 16:07:17 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/config/config.php on line 4
+[08-Aug-2018 16:07:17 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/enviaEmail.php on line 17
+[08-Aug-2018 16:07:17 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/enviaEmail.php on line 18
+[08-Aug-2018 16:08:08 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/config/config.php on line 3
+[08-Aug-2018 16:08:08 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/config/config.php on line 4
+[08-Aug-2018 16:08:08 UTC] PHP Notice:  Use of undefined constant USERNAME - assumed 'USERNAME' in /home/u951541693/public_html/enviaEmail.php on line 17
+[08-Aug-2018 16:08:08 UTC] PHP Notice:  Use of undefined constant PASSWORD - assumed 'PASSWORD' in /home/u951541693/public_html/enviaEmail.php on line 18
+[08-Aug-2018 17:08:15 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 17:08:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 17:18:07 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 17:18:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 17:48:15 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 17:48:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:00:53 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:00:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:03:17 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:03:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:03:48 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:03:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:32:31 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 18:32:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 19:20:39 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 19:20:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 19:23:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/u951541693/public_html/orcamento.php:1) in /home/u951541693/public_html/orcamento.php on line 84
+[08-Aug-2018 19:25:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/u951541693/public_html/orcamento.php:1) in /home/u951541693/public_html/orcamento.php on line 84
+[08-Aug-2018 19:31:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/u951541693/public_html/orcamento.php:1) in /home/u951541693/public_html/orcamento.php on line 84
+[08-Aug-2018 19:46:14 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 19:46:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 19:46:24 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[08-Aug-2018 19:46:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[09-Aug-2018 03:02:52 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[09-Aug-2018 03:02:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[09-Aug-2018 06:21:52 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[09-Aug-2018 06:21:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[09-Aug-2018 13:14:37 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[09-Aug-2018 13:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[14-Aug-2018 21:46:57 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[14-Aug-2018 21:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 00:52:42 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 00:52:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 00:56:29 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 00:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:00:54 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:00:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:01:53 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:01:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:10:47 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:13:12 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:13:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:13:21 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:13:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:29:45 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:29:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:29:56 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:29:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:30:47 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:30:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:31:37 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:49:54 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:49:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:49:56 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:49:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:05 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:07 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:10 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:17 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:19 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:33 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:36 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:57:27 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 01:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 02:01:05 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 02:01:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 02:01:12 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[15-Aug-2018 02:01:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[16-Dec-2018 10:31:19 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[16-Dec-2018 10:31:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[03-Feb-2019 17:45:14 UTC] PHP Notice:  Undefined index: nome in /home/u951541693/public_html/enviaEmail.php on line 6
+[03-Feb-2019 17:45:14 UTC] PHP Notice:  Undefined index: celular in /home/u951541693/public_html/enviaEmail.php on line 8
+[03-Feb-2019 17:45:14 UTC] PHP Notice:  Undefined index: endereco in /home/u951541693/public_html/enviaEmail.php on line 9
+[03-Feb-2019 17:45:14 UTC] PHP Notice:  Undefined index: motivo in /home/u951541693/public_html/enviaEmail.php on line 11
+[03-Feb-2019 17:45:14 UTC] PHP Notice:  Undefined index: mensagem in /home/u951541693/public_html/enviaEmail.php on line 12
+[14-Feb-2019 21:33:49 UTC] PHP Notice:  Undefined variable: conexao in /home/u951541693/public_html/eventos.php on line 5
+[14-Feb-2019 21:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/u951541693/public_html/eventos.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/u951541693/public_html/eventos.php on line 5
+[18-Feb-2019 17:08:03 UTC] PHP Notice:  Undefined index: nome in /home/u951541693/public_html/enviaEmail.php on line 6
+[18-Feb-2019 17:08:03 UTC] PHP Notice:  Undefined index: celular in /home/u951541693/public_html/enviaEmail.php on line 8
+[18-Feb-2019 17:08:03 UTC] PHP Notice:  Undefined index: endereco in /home/u951541693/public_html/enviaEmail.php on line 9
+[18-Feb-2019 17:08:03 UTC] PHP Notice:  Undefined index: motivo in /home/u951541693/public_html/enviaEmail.php on line 11
+[18-Feb-2019 17:08:03 UTC] PHP Notice:  Undefined index: mensagem in /home/u951541693/public_html/enviaEmail.php on line 12
